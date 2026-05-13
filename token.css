@@ -1,0 +1,83 @@
+:root {
+  /* ── Core brand (Realtime Colors source) ── */
+  --text:       rgb(35, 34, 37);
+  --background: rgb(251, 251, 254);
+  --primary:    rgb(47, 39, 206);
+  --secondary:  rgb(221, 219, 255);
+  --accent:     rgb(252, 47, 0);
+
+  /* ── Primary (Indigo) scale ── */
+  --color-primary-50:  #EEEEFF;
+  --color-primary-100: #DDDBFF;
+  --color-primary-200: #B8B4FF;
+  --color-primary-300: #8078FF;
+  --color-primary-500: #2F27CE;
+  --color-primary-600: #231CA0;
+  --color-primary-700: #181274;
+  --color-primary-900: #0D0A48;
+
+  /* ── Accent (Coral Red) scale ── */
+  --color-accent-50:  #FFF0EC;
+  --color-accent-100: #FFCFBF;
+  --color-accent-200: #FF9070;
+  --color-accent-500: #FC2F00;
+  --color-accent-600: #C22400;
+  --color-accent-800: #8A1900;
+
+  /* ── Neutral (Warm Slate) ── */
+  --color-neutral-bg:  #FBFBFE;
+  --color-neutral-50:  #F4F3FF;
+  --color-neutral-100: #E8E7F5;
+  --color-neutral-200: #C4C3D8;
+  --color-neutral-400: #9998B0;
+  --color-neutral-600: #6B6A80;
+  --color-neutral-800: #3D3C55;
+  --color-neutral-900: #232225;
+
+  /* ── Semantic ── */
+  --color-success-bg: #EAFAF1;
+  --color-success:    #1D7A45;
+  --color-warning-bg: #FFF8E1;
+  --color-warning:    #B85C00;
+  --color-danger-bg:  #FFF0EC;
+  --color-danger:     #C22400;
+
+  /* ── Typography ── */
+  --font-display: 'Merriweather Sans', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  --text-xs:   10px;
+  --text-sm:   12px;
+  --text-base: 14px;
+  --text-lg:   16px;
+  --text-xl:   20px;
+  --text-2xl:  26px;
+  --text-3xl:  36px;
+
+  /* ── Spacing (4px base) ── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Radius ── */
+  --radius-xs:   2px;
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-pill: 9999px;
+
+  /* ── Borders ── */
+  --border-subtle:  1px solid #DDDBFF;
+  --border-default: 1.5px solid #B8B4FF;
+  --border-strong:  1.5px solid #2F27CE;
+
+  /* ── Shadows ── */
+  --shadow-card:  0 1px 4px rgba(47,39,206,.08);
+  --shadow-modal: 0 8px 32px rgba(47,39,206,.14);
+}
